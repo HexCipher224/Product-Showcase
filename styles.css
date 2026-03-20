@@ -1,6 +1,11 @@
 body{
     background-color: rgb(153, 131, 131);/* add a mixture of red and grey background color */
 }
+.product-card-container{
+    display: flex;/* add flexbox layout */
+    padding: 20px;/* space between img and text */
+    align-items: flex-start;
+}
 .product-card{
     display: flex;/* turns the element into flex container */
     flex-wrap: wrap;/* allow item to move on another line when they don't fit */
