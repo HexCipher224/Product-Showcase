@@ -1,3 +1,13 @@
 body{
-    background-color: rgb(153, 131, 131);
+    background-color: rgb(153, 131, 131);/* add a mixture of red and grey background color */
+}
+.product-card{
+    display: flex;/* turns the element into flex container */
+    flex-wrap: wrap;/* allow item to move on another line when they don't fit */
+    border: 2px;/* add a thin border across the image */
+    padding: 1em;/* add padding content */
+    margin: 1em;/* add some margin across the content */
+}
+.product-card img{
+    border-radius: 32px;
 }
