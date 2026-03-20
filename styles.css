@@ -13,6 +13,7 @@ body{
     flex: 1 1 auto;/* allow it to shrink and grow as needed */
     padding: 0.5em;/* add spacing around */
     width: 40%;/* sets image to 40% of the screen size */
+    float: left;
 }
 h1{
     font-weight: 800;
