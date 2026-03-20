@@ -9,5 +9,13 @@ body{
     margin: 1em;/* add some margin across the content */
 }
 .product-card img{
-    border-radius: 32px;
+    border-radius: 32px;/* add border radius to remove sharp edges */
+    flex: 1 1 auto;/* allow it to shrink and grow as needed */
+    padding: 0.5em;/* add spacing around */
+    width: 40%;/* sets image to 40% of the screen size */
+}
+h1{
+    font-weight: 800;
+    text-align: center;
+    font-style: italic;
 }
