@@ -4,7 +4,7 @@ body{
 .product-card{
     display: flex;/* turns the element into flex container */
     flex-wrap: wrap;/* allow item to move on another line when they don't fit */
-    border: 1px solid #ddd;/* add a thin border across the image */
+    border: 1px solid #b2a4a4;/* add a thin border across the image */
     padding: 1em;/* add padding content */
     margin: 1em;/* add some margin across the content */
 }
